@@ -47,6 +47,8 @@ pnpm run build
 
 - zod (prevent typescript error when using react context)
 
+- svgr (to import svg directly in react)
+
 ### What I learned
 
 #### Tailwindcss dark theme
