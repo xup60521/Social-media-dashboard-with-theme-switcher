@@ -11,7 +11,7 @@ export default function Overview() {
                     return (
                         <div
                             key={`overview ${index}`}
-                            className="bg-light_card_bg_Light_Grayish_Blue dark:bg-dark_card_bg_Dark_Desaturated_Blue flex flex-col px-6 py-6 gap-4 rounded-md"
+                            className="bg-light_card_bg_Light_Grayish_Blue dark:bg-dark_card_bg_Dark_Desaturated_Blue flex flex-col px-6 py-6 gap-4 rounded-md cursor-pointer transition hover:brightness-95 dark:hover:brightness-125"
                         >
                             <div className="flex items-center justify-between">
                                 <span className="text-light_text_Dark_Grayish_Blue text-xs font-bold dark:text-dark_text_Desaturated_Blue">

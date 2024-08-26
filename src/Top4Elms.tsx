@@ -8,7 +8,7 @@ import IconDown from "@/images/icon-down.svg?react";
 export default function Top4Elms() {
     return (
         <div className="md:grid flex flex-col grid-cols-4 gap-8">
-            <div className="rounded-md overflow-hidden pt-1 bg-p_Fb">
+            <div className="rounded-md overflow-hidden pt-1 bg-p_Fb cursor-pointer transition hover:brightness-95 dark:hover:brightness-125">
                 <div className="bg-light_card_bg_Light_Grayish_Blue dark:bg-dark_card_bg_Dark_Desaturated_Blue flex flex-col items-center py-6 gap-6">
                     <div className="flex justify-center items-center gap-2 w-full">
                         <IconFB />
@@ -29,7 +29,7 @@ export default function Top4Elms() {
                     </p>
                 </div>
             </div>
-            <div className="rounded-md overflow-hidden pt-1 bg-p_Twitter">
+            <div className="rounded-md overflow-hidden pt-1 bg-p_Twitter cursor-pointer transition hover:brightness-95 dark:hover:brightness-125">
 <div className="bg-light_card_bg_Light_Grayish_Blue dark:bg-dark_card_bg_Dark_Desaturated_Blue flex flex-col items-center py-6 gap-6">
                     <div className="flex justify-center items-center gap-2 w-full">
                         <IconTwitter />
@@ -50,7 +50,7 @@ export default function Top4Elms() {
                     </p>
                 </div>
             </div>
-            <div className="rounded-md overflow-hidden pt-1 bg-gradient-to-r from-p_Ig1 to-p_Ig2">
+            <div className="rounded-md overflow-hidden pt-1 bg-gradient-to-r from-p_Ig1 to-p_Ig2 cursor-pointer transition hover:brightness-95 dark:hover:brightness-125">
 <div className="bg-light_card_bg_Light_Grayish_Blue dark:bg-dark_card_bg_Dark_Desaturated_Blue flex flex-col items-center py-6 gap-6">
                     <div className="flex justify-center items-center gap-2 w-full">
                         <IconIg />
@@ -71,7 +71,7 @@ export default function Top4Elms() {
                     </p>
                 </div>
             </div>
-            <div className="rounded-md overflow-hidden pt-1 bg-p_YouTube">
+            <div className="rounded-md overflow-hidden pt-1 bg-p_YouTube cursor-pointer transition hover:brightness-95 dark:hover:brightness-125">
                 <div className="bg-light_card_bg_Light_Grayish_Blue dark:bg-dark_card_bg_Dark_Desaturated_Blue flex flex-col items-center py-6 gap-6">
                     <div className="flex justify-center items-center gap-2 w-full">
                         <IconYoutube />
